@@ -378,7 +378,8 @@ a {
 }
 
 .hero-item_img {
-    height: 400px;
+    max-height: 550px;
+    /* height: 400px; */
     object-fit: cover;
     border-radius: 3px;
     background-attachment: fixed;
@@ -461,7 +462,7 @@ a {
 
 /* site footer start */
 .footer {
-    background-color: var(--bg-light-color);
+    background-color: var(--bglight_color);
 }
 
 .footer_link {
@@ -473,15 +474,16 @@ a {
 }
 
 .footer_wrapper {
-    padding-block: 30px;
+    padding-block: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-info_link {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 500;
+    line-height: 46px;
     color: var(--black-color);
 }
 
@@ -503,7 +505,7 @@ a {
 }
 
 .footer-desc_link {
-    font-size: 18px;
+    font-size: 19px;
     color: var(--black-color);
 }
 
